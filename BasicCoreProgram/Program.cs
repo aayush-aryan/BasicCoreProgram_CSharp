@@ -27,6 +27,9 @@ namespace BasicCoreProgram
                 case 5:
                     PrimeFactors.ComputingPrimeFactors();
                     break;
+                case 6:
+                    QuotientRemainder.ComputeQuotientRemainder();
+                    break;
                 default:
                     Console.WriteLine("Invalid Choice");
                     break;

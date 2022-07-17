@@ -14,7 +14,7 @@ namespace BasicCoreProgram
             Console.WriteLine("Table Of power of Two are :");
             for (int index = 0; index < number; index++)
             {
-                num = num * 2;
+                num = (num * 2);
                 Console.WriteLine(num);
             }
         }

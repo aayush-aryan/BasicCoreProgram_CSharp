@@ -13,7 +13,7 @@ namespace BasicCoreProgram
             int harmonicTerm = Convert.ToInt32(Console.ReadLine());
             for (int index = 1; index <= harmonicTerm; index++)
             {
-                harmonicValue = harmonicValue + ((numerator / index));
+                harmonicValue = harmonicValue + (numerator / index);
             }
             Console.WriteLine(harmonicValue);
         }

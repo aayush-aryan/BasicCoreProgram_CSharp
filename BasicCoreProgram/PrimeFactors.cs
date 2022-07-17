@@ -6,22 +6,22 @@ namespace BasicCoreProgram
 {
     class PrimeFactors
     {
-        public static void ComputingPrimeFactors()
-        {
+        
+        public static void ComputingPrimeFactors(){
             Console.WriteLine("Enter the Number to calculate Prime Factors:");
             int Number = int.Parse(Console.ReadLine());
 
-            for (int index = 2; index <= Number / 2; index++)
+            for(int i = 2; i <= Number / 2; i++)
             {
-                while (Number % index == 0)
+                while (Number % i == 0)
                 {
-                    Console.WriteLine(index);
-                    Number = Number / index;
+                    Console.WriteLine(i);
+                    Number = Number / i;
                 }
-                if (Number > 2)
-                {
-                    Console.WriteLine(Number);
-                }
+            }
+            if (Number > 2)
+            {
+                Console.WriteLine(Number);
             }
         }
     }
