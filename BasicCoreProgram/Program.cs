@@ -24,6 +24,9 @@ namespace BasicCoreProgram
                 case 4:
                     HarmonicNumber.ToPrintNthHarmonicValue();
                     break;
+                case 5:
+                    PrimeFactors.ComputingPrimeFactors();
+                    break;
                 default:
                     Console.WriteLine("Invalid Choice");
                     break;
