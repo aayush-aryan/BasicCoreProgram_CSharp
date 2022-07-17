@@ -8,6 +8,7 @@ namespace BasicCoreProgram
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter the Choice :");
             choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -16,6 +17,9 @@ namespace BasicCoreProgram
                     break;
                 case 2:
                     LeapYear.CheckLeapYear();
+                    break;
+                case 3:
+                    PowerOFTwo.PrintTableOFTwo();
                     break;
                 default:
                     Console.WriteLine( "Invalid Choice");
