@@ -39,6 +39,9 @@ namespace BasicCoreProgram
                 case 9:
                     VowelConstant.CheckVowelConstant();
                     break;
+                case 10:
+                    LargestNumber.ComputingLargestNumber();
+                    break;
                 default:
                     Console.WriteLine("Invalid Choice");
                     break;
