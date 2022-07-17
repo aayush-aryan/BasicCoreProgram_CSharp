@@ -33,6 +33,12 @@ namespace BasicCoreProgram
                 case 7:
                     SwapTwoNumbers.NumberSwapping();
                     break;
+                case 8:
+                    EvenOdd.CheckEvenOdd();
+                    break;
+                case 9:
+                    VowelConstant.CheckVowelConstant();
+                    break;
                 default:
                     Console.WriteLine("Invalid Choice");
                     break;
