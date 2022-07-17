@@ -15,7 +15,7 @@ namespace BasicCoreProgram
             int divisor = int.Parse(Console.ReadLine());
 
             int quotient = dividend / divisor;
-            int remainder = dividend % quotient;
+            int remainder = dividend % divisor;
 
             Console.WriteLine("quotient :" + quotient);
             Console.WriteLine("remainder :" + remainder);

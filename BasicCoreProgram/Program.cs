@@ -8,7 +8,9 @@ namespace BasicCoreProgram
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Choice :");
+            Console.WriteLine("Enter the Choice : \nFlipCoin: 1\nLeapyear : 2\nPowerOFTwo: 3\nHarmonicNumber: " +
+                "4\nPrimeFactors :5\nQuotientsRemainder :6" + "\nSwapTwoNumbers :7\nEvenOdd :8\nVowelConsonant :9" +
+                "\nLargestNumber :10");
             choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
