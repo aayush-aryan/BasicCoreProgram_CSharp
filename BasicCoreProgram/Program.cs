@@ -21,12 +21,15 @@ namespace BasicCoreProgram
                 case 3:
                     PowerOFTwo.PrintTableOFTwo();
                     break;
+                case 4:
+                    HarmonicNumber.ToPrintNthHarmonicValue();
+                    break;
                 default:
-                    Console.WriteLine( "Invalid Choice");
+                    Console.WriteLine("Invalid Choice");
                     break;
 
             }
-            
+
         }
     }
 }
