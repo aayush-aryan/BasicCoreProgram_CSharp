@@ -11,12 +11,12 @@ namespace BasicCoreProgram
             Console.WriteLine("Enter the Number to calculate Prime Factors:");
             int Number = int.Parse(Console.ReadLine());
 
-            for(int i = 2; i <= Number / 2; i++)
+            for(int index = 2; index <= Number / 2; index++)
             {
-                while (Number % i == 0)
+                while (Number % index == 0)
                 {
-                    Console.WriteLine(i);
-                    Number = Number / i;
+                    Console.WriteLine(index);
+                    Number = Number / index;
                 }
             }
             if (Number > 2)

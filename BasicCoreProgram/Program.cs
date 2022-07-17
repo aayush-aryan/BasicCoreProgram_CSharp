@@ -30,6 +30,9 @@ namespace BasicCoreProgram
                 case 6:
                     QuotientRemainder.ComputeQuotientRemainder();
                     break;
+                case 7:
+                    SwapTwoNumbers.NumberSwapping();
+                    break;
                 default:
                     Console.WriteLine("Invalid Choice");
                     break;
